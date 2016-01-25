@@ -35,5 +35,5 @@
     $b: $b + $b;
   }
 
-  @return rgb(_hex-to-dec($r), _hex-to-dec($g), _hex-to-dec($b));
+  @return rgb(_sc-hex-to-dec($r), _sc-hex-to-dec($g), _sc-hex-to-dec($b));
 }
